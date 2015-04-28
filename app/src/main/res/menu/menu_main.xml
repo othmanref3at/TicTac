@@ -1,0 +1,20 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".StartingNowHere">
+
+    <item
+        android:id="@+id/menu_item_share"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/exit"
+        android:title="@string/Share"/>
+
+    <item
+        android:id="@+id/ShopCart"
+        android:icon="@drawable/add"
+        app:showAsAction="ifRoom"
+        android:title="@string/MyCart"/>
+
+
+
+</menu>
